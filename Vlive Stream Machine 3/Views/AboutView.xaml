@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="WpfApplication1.Views.AboutView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="524"
+             d:DesignWidth="435">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="17,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="62" Width="346" Foreground="White" Text="A basic app which allows for automated streaming of Vlive videos. " FontSize="18" FontWeight="Bold" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="17,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="346" Foreground="White" FontSize="15" FontWeight="Bold" TextAlignment="Center"><Run Text="How to use"/><LineBreak/><Run Text=""/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="17,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="204" Width="346" Foreground="White" FontSize="12" TextAlignment="Left"><Run Text="1.&#x9;Fill up &quot;Videos&quot; tab with Vlive videos corresponding to &#x9;the time duration. There is a 15 minute leeway. E.g. 45 &#x9;minute videos can be put in 30 minute videos for more &#x9;efficiency."/><LineBreak/><Run/><LineBreak/><Run Text="2.&#x9;Choose amount of times it will loop."/><LineBreak/><Run/><LineBreak/><Run Text="3.&#x9;Go back to the home page and press &quot;START&quot;"/><LineBreak/><Run/><LineBreak/><Run Text="4.&#x9;Leave the application alone. THIS APPLICATION NEEDS&#x9;TO HAVE THE BROWSER UP FOR IT TO WORK! This app&#x9;cannot really be used when you're using the computer.&#x9;"/><LineBreak/><Run Text=""/></TextBlock>
+
+        <TextBlock HorizontalAlignment="Left" Margin="17,450,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="91" Width="346" Foreground="White" Text="Developed by Brandon Duong out of complete boredom using Metro UI. " FontSize="15" FontWeight="Bold" TextAlignment="Center"/>
+        <Image x:Name="testimg1" HorizontalAlignment="Left" Height="100" Margin="83,75,0,0" VerticalAlignment="Top" Width="253"/>
+
+    </Grid>
+
+</UserControl>

@@ -1,0 +1,17 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-100"
+"ResourceDimensions"		"scale-100"
+
+[Files]
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\split.scale-100.pri"			"resources.pri"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\vlivesplash.scale-100.png"			"Assets\vlivesplash.scale-100.png"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\vlivelogo.scale-100.png"			"Assets\vlivelogo.scale-100.png"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\vlive44.scale-100.png"			"Assets\vlive44.scale-100.png"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\vlive44.scale-100.jpg"			"Assets\vlive44.scale-100.jpg"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\vlive150.scale-100.png"			"Assets\vlive150.scale-100.png"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\vlive150.scale-100.jpg"			"Assets\vlive150.scale-100.jpg"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\SmallTile.scale-100.scale-100.png"			"Assets\SmallTile.scale-100.scale-100.png"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\SmallTile.scale-100.png"			"Assets\SmallTile.scale-100.png"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\LargeTile.scale-100.scale-100.png"			"Assets\LargeTile.scale-100.scale-100.png"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\LargeTile.scale-100.png"			"Assets\LargeTile.scale-100.png"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\BadgeLogo.scale-100.png"			"Assets\BadgeLogo.scale-100.png"

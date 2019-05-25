@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\bin\ARM\Debug\Vlive Stream Machine_1.5.0.0_ARM_Debug.appx
+SymbolPackage=C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\AppPackages\Vlive Stream Machine_1.5.0.0_Debug_Test\Vlive Stream Machine_1.5.0.0_ARM_Debug.appxsym

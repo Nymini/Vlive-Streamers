@@ -1,0 +1,15 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-150"
+"ResourceDimensions"		"scale-150"
+
+[Files]
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\split.scale-150.pri"			"resources.pri"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\vlivesplash.scale-150.png"			"Assets\vlivesplash.scale-150.png"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\vlivelogo.scale-150.png"			"Assets\vlivelogo.scale-150.png"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\vlive44.scale-150.png"			"Assets\vlive44.scale-150.png"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\vlive150.scale-150.png"			"Assets\vlive150.scale-150.png"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\SmallTile.scale-100.scale-150.png"			"Assets\SmallTile.scale-100.scale-150.png"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\SmallTile.scale-150.png"			"Assets\SmallTile.scale-150.png"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\LargeTile.scale-100.scale-150.png"			"Assets\LargeTile.scale-100.scale-150.png"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\LargeTile.scale-150.png"			"Assets\LargeTile.scale-150.png"
+"C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\PackageLayout\Assets\BadgeLogo.scale-150.png"			"Assets\BadgeLogo.scale-150.png"

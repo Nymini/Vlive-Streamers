@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" IgnorableNamespaces="uap mp rescap">
+  <Identity Name="57775e17-f3b8-4257-8159-acccde4cf518" Publisher="CN=Brandon Duong" Version="1.5.0.0" />
+  <mp:PhoneIdentity PhoneProductId="57775e17-f3b8-4257-8159-acccde4cf518" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>Vlive Stream Machine</DisplayName>
+    <PublisherDisplayName>Brandon Duong</PublisherDisplayName>
+    <Logo>Assets\vlivelogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Vlive_Stream_Machine.App">
+      <uap:VisualElements DisplayName="Vlive Stream Machine" Square150x150Logo="Assets\vlive150.png" Square44x44Logo="Assets\vlive44.png" Description="Vlive Stream Machine" BackgroundColor="#54F7FF">
+        <uap:SplashScreen Image="Assets\vlivesplash.png" BackgroundColor="#54F7FF" />
+      </uap:VisualElements>
+      <Extensions>
+        <desktop:Extension Category="windows.fullTrustProcess" Executable="Assets\WpfApp1.exe" />
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <rescap:Capability Name="runfulltrust" />
+  </Capabilities>
+</Package>

@@ -1,0 +1,113 @@
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\WpfApplication1.exe.config
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\WpfApplication1.exe
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\WpfApplication1.pdb
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\CefSharp.Core.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\CefSharp.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\CefSharp.Wpf.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\HamburgerMenu.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\HtmlAgilityPack.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\MahApps.Metro.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\MahApps.Metro.IconPacks.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\System.Windows.Interactivity.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\WebDriver.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\WindowsInput.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\CefSharp.Wpf.pdb
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\CefSharp.Wpf.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\CefSharp.pdb
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\CefSharp.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\CefSharp.Core.pdb
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\CefSharp.Core.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\HtmlAgilityPack.pdb
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\HtmlAgilityPack.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\MahApps.Metro.pdb
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\MahApps.Metro.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\MahApps.Metro.IconPacks.pdb
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\MahApps.Metro.IconPacks.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\Microsoft.WindowsAPICodePack.pdb
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\WebDriver.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\bin\x64\Debug\WindowsInput.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\Resources\Icons.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\Resources\IconsNonShared.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\Views\AboutView.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\Views\HomeView.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\Views\PrivateView.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\Views\SettingsView.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\MainWindow.g.cs
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\Views\AboutView.g.cs
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\Views\HomeView.g.cs
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\Views\PrivateView.g.cs
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\Views\SettingsView.g.cs
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\App.g.cs
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\WpfApplication1_MarkupCompile.lref
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\App.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\MainWindow.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\WpfApplication1.g.resources
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\WpfApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\WpfApplication1.exe
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\WpfApplication1.pdb
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\Views\BrowserView.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1\obj\x64\Debug\Views\BrowserView.g.cs
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\WpfApplication1.exe.config
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\WpfApplication1.exe
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\WpfApplication1.pdb
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\CefSharp.Core.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\CefSharp.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\CefSharp.Wpf.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\HamburgerMenu.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\HtmlAgilityPack.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\MahApps.Metro.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\MahApps.Metro.IconPacks.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\System.Windows.Interactivity.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\WebDriver.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\WindowsInput.dll
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\CefSharp.Wpf.pdb
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\CefSharp.Wpf.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\CefSharp.pdb
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\CefSharp.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\CefSharp.Core.pdb
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\CefSharp.Core.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\HtmlAgilityPack.pdb
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\HtmlAgilityPack.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\MahApps.Metro.pdb
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\MahApps.Metro.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\MahApps.Metro.IconPacks.pdb
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\MahApps.Metro.IconPacks.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\Microsoft.WindowsAPICodePack.pdb
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\WebDriver.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\bin\x64\Debug\WindowsInput.xml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\WpfApplication1.csprojAssemblyReference.cache
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\Resources\Icons.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\Resources\IconsNonShared.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\Views\BrowserView.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\Views\AboutView.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\Views\HomeView.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\Views\PrivateView.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\Views\SettingsView.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\MainWindow.g.cs
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\Views\BrowserView.g.cs
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\Views\AboutView.g.cs
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\Views\HomeView.g.cs
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\Views\PrivateView.g.cs
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\Views\SettingsView.g.cs
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\App.g.cs
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\WpfApplication1_MarkupCompile.lref
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\App.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\MainWindow.baml
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\WpfApplication1.g.resources
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\WpfApplication1.csproj.GenerateResource.cache
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\WpfApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\WpfApplication1.csproj.CopyComplete
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\WpfApplication1.exe
+C:\Users\Brandon Duong\Documents\Visual Studio 2015\Projects\WpfApplication1 - Copy (4)\obj\x64\Debug\WpfApplication1.pdb

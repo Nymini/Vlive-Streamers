@@ -1,0 +1,1404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>GAMING-PC</Machine>
+    <WindowsUser>Brandon Duong</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>57775e17-f3b8-4257-8159-acccde4cf518</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Brandon Duong</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>FA326D74C6498B906BF07B98126C19C38428B72B9238D8D15E5D367C427F6EF5</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>57775e17-f3b8-4257-8159-acccde4cf518_1.5.0.0_x86__nkghrwjp8x0ee</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>57775e17-f3b8-4257-8159-acccde4cf518_nkghrwjp8x0ee!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>57775e17-f3b8-4257-8159-acccde4cf518</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Brandon Duong</RegisteredPackagePublisher>
+    <RegisteredVersion>1.5.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-05-25T07:49:55.840</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\bin\x86\Debug\Vlive Stream Machine.exe">
+      <PackagePath>entrypoint\Vlive Stream Machine.exe</PackagePath>
+      <Modified>2019-05-25T07:33:37.019</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+      <Modified>2016-06-11T13:13:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
+      <Modified>2016-07-01T08:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+      <Modified>2016-07-01T08:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Net.dll">
+      <PackagePath>System.Net.dll</PackagePath>
+      <Modified>2016-07-01T08:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Numerics.dll">
+      <PackagePath>System.Numerics.dll</PackagePath>
+      <Modified>2016-07-01T08:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Runtime.Serialization.dll">
+      <PackagePath>System.Runtime.Serialization.dll</PackagePath>
+      <Modified>2016-07-01T08:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.Web.dll">
+      <PackagePath>System.ServiceModel.Web.dll</PackagePath>
+      <Modified>2016-07-01T08:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.dll">
+      <PackagePath>System.ServiceModel.dll</PackagePath>
+      <Modified>2016-07-01T08:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Windows.dll">
+      <PackagePath>System.Windows.dll</PackagePath>
+      <Modified>2016-07-01T08:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Linq.dll">
+      <PackagePath>System.Xml.Linq.dll</PackagePath>
+      <Modified>2016-07-01T08:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Serialization.dll">
+      <PackagePath>System.Xml.Serialization.dll</PackagePath>
+      <Modified>2016-07-01T08:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.dll">
+      <PackagePath>System.Xml.dll</PackagePath>
+      <Modified>2016-07-01T08:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.dll">
+      <PackagePath>System.dll</PackagePath>
+      <Modified>2016-07-01T08:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\microsoft.visualbasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+      <Modified>2016-06-11T13:13:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.any.system.collections\4.0.11\lib\netcore50\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2016-06-11T13:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.any.system.diagnostics.tools\4.0.1\lib\netcore50\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+      <Modified>2016-06-11T13:13:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.any.system.diagnostics.tracing\4.1.0\lib\netcore50\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+      <Modified>2016-06-11T13:13:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.any.system.globalization\4.0.11\lib\netcore50\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+      <Modified>2016-06-11T13:13:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.any.system.globalization.calendars\4.0.1\lib\netcore50\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+      <Modified>2016-06-11T13:13:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.any.system.io\4.1.0\lib\netcore50\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+      <Modified>2016-06-11T13:13:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.any.system.reflection\4.1.0\lib\netcore50\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+      <Modified>2016-06-11T13:14:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.any.system.reflection.extensions\4.0.1\lib\netcore50\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+      <Modified>2016-06-11T13:14:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.any.system.reflection.primitives\4.0.1\lib\netcore50\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+      <Modified>2016-06-11T13:14:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.any.system.resources.resourcemanager\4.0.1\lib\netcore50\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+      <Modified>2016-06-11T13:14:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.any.system.runtime\4.1.0\lib\netcore50\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2016-06-11T13:14:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.any.system.runtime.handles\4.0.1\lib\netstandard1.3\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+      <Modified>2016-06-11T13:14:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.any.system.runtime.interopservices\4.1.0\lib\netcore50\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2016-06-11T13:14:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.any.system.text.encoding\4.0.11\lib\netcore50\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+      <Modified>2016-06-11T13:14:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.any.system.text.encoding.extensions\4.0.11\lib\netcore50\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+      <Modified>2016-06-11T13:14:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.any.system.threading.tasks\4.0.11\lib\netcore50\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+      <Modified>2016-06-11T13:14:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.any.system.threading.timer\4.0.1\lib\netcore50\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+      <Modified>2016-06-11T13:14:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.win.microsoft.win32.primitives\4.0.1\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+      <Modified>2016-06-11T13:13:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.win.system.diagnostics.debug\4.0.11\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+      <Modified>2016-06-11T13:13:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.win.system.io.filesystem\4.0.1\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+      <Modified>2016-06-11T13:13:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.win.system.net.primitives\4.0.11\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+      <Modified>2016-06-11T13:14:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.win.system.net.sockets\4.1.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+      <Modified>2016-06-11T13:14:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.win.system.runtime.extensions\4.1.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+      <Modified>2016-06-11T13:14:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.win7-x86.microsoft.netcore.jit\1.0.3\runtimes\win7-x86\native\clrjit.dll">
+      <PackagePath>clrjit.dll</PackagePath>
+      <Modified>2016-06-13T08:27:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.win7-x86.runtime.native.system.io.compression\4.0.1\runtimes\win7-x86\native\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2016-06-13T11:51:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\runtime.win7.system.private.uri\4.0.2\runtimes\win\lib\netcore50\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2016-07-01T05:48:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.appcontext\4.1.0\lib\netcore50\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+      <Modified>2016-06-11T13:13:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.buffers\4.0.0\lib\netstandard1.1\System.Buffers.dll">
+      <PackagePath>System.Buffers.dll</PackagePath>
+      <Modified>2016-06-11T13:13:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.collections.concurrent\4.0.12\lib\netcore50\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2016-06-11T13:13:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.collections.immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2016-06-11T13:13:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+      <Modified>2016-06-11T13:13:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+      <Modified>2016-06-11T13:13:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2016-06-11T13:13:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.componentmodel.annotations\4.1.0\lib\netcore50\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+      <Modified>2016-06-11T13:13:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+      <Modified>2016-06-11T13:13:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.data.common\4.1.0\lib\netstandard1.2\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+      <Modified>2016-06-11T13:13:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.diagnostics.contracts\4.0.1\lib\netcore50\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+      <Modified>2016-06-11T13:13:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.diagnostics.diagnosticsource\4.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
+      <Modified>2016-06-11T13:13:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.diagnostics.stacktrace\4.0.2\lib\netstandard1.3\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2016-07-01T05:48:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.dynamic.runtime\4.0.11\lib\netcore50\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+      <Modified>2016-06-11T13:13:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.globalization.extensions\4.0.1\runtimes\win\lib\netstandard1.3\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+      <Modified>2016-06-11T13:13:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.io.compression\4.1.1\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2016-07-01T05:48:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.io.compression.zipfile\4.0.1\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+      <Modified>2016-06-11T13:13:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.io.filesystem.primitives\4.0.1\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+      <Modified>2016-06-11T13:13:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.io.isolatedstorage\4.0.1\lib\netcore50\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+      <Modified>2016-06-11T13:13:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.io.unmanagedmemorystream\4.0.1\lib\netstandard1.3\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+      <Modified>2016-06-11T13:13:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.linq\4.1.0\lib\netcore50\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2016-06-11T13:14:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.linq.expressions\4.1.0\lib\netcore50\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2016-06-11T13:13:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.linq.parallel\4.0.1\lib\netcore50\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+      <Modified>2016-06-11T13:13:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.linq.queryable\4.0.1\lib\netcore50\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+      <Modified>2016-06-11T13:13:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.net.http\4.1.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+      <Modified>2016-06-11T13:13:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.net.http.rtc\4.0.1\runtimes\win\lib\netcore50\System.Net.Http.Rtc.dll">
+      <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
+      <Modified>2016-06-11T13:13:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.net.nameresolution\4.0.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
+      <PackagePath>System.Net.NameResolution.dll</PackagePath>
+      <Modified>2016-06-11T13:13:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.net.networkinformation\4.1.0\runtimes\win\lib\netcore50\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+      <Modified>2016-06-11T13:14:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.net.requests\4.0.11\runtimes\win\lib\netstandard1.3\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+      <Modified>2016-06-11T13:14:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.net.webheadercollection\4.0.1\lib\netstandard1.3\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+      <Modified>2016-06-11T13:14:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.net.websockets\4.0.0\lib\netstandard1.3\System.Net.WebSockets.dll">
+      <PackagePath>System.Net.WebSockets.dll</PackagePath>
+      <Modified>2016-06-11T13:14:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.websockets.client\4.0.2\runtimes\win\lib\netcore50\System.Net.WebSockets.Client.dll">
+      <PackagePath>System.Net.WebSockets.Client.dll</PackagePath>
+      <Modified>2017-11-20T05:34:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.numerics.vectors\4.1.1\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+      <Modified>2016-06-11T13:14:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.numerics.vectors.windowsruntime\4.0.1\lib\uap10.0\System.Numerics.Vectors.WindowsRuntime.dll">
+      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-06-11T13:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.objectmodel\4.0.12\lib\netcore50\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2016-06-11T13:14:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.private.datacontractserialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+      <Modified>2017-02-09T02:26:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.private.servicemodel\4.1.1\runtimes\win7\lib\netcore50\System.Private.ServiceModel.dll">
+      <PackagePath>System.Private.ServiceModel.dll</PackagePath>
+      <Modified>2017-12-12T15:31:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.reflection.context\4.0.1\lib\netcore50\System.Reflection.Context.dll">
+      <PackagePath>System.Reflection.Context.dll</PackagePath>
+      <Modified>2016-06-11T13:14:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.reflection.dispatchproxy\4.0.1\lib\netstandard1.3\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+      <Modified>2016-06-11T13:14:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.reflection.emit\4.0.1\lib\netcore50\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+      <Modified>2016-06-11T13:14:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.reflection.emit.ilgeneration\4.0.1\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+      <Modified>2016-06-11T13:14:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.reflection.emit.lightweight\4.0.1\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+      <Modified>2016-06-11T13:14:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2016-06-11T13:14:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.reflection.typeextensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+      <Modified>2016-06-11T13:14:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.runtime.interopservices.windowsruntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-06-11T13:14:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.runtime.numerics\4.0.1\lib\netcore50\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+      <Modified>2016-06-11T13:14:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.runtime.serialization.json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+      <Modified>2017-02-09T02:26:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.runtime.serialization.primitives\4.1.1\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+      <Modified>2016-06-11T13:14:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.runtime.serialization.xml\4.1.2\lib\netcore50\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+      <Modified>2017-02-09T02:26:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.runtime.windowsruntime\4.0.11\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-06-11T13:14:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.runtime.windowsruntime.ui.xaml\4.0.1\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+      <Modified>2016-06-11T13:14:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.security.claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+      <Modified>2016-06-11T13:14:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.security.cryptography.algorithms\4.2.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
+      <Modified>2016-06-11T13:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.security.cryptography.cng\4.2.0\runtimes\win\lib\netstandard1.4\System.Security.Cryptography.Cng.dll">
+      <PackagePath>System.Security.Cryptography.Cng.dll</PackagePath>
+      <Modified>2016-06-11T13:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.security.cryptography.encoding\4.0.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
+      <Modified>2016-06-11T13:14:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.security.cryptography.primitives\4.0.0\lib\netstandard1.3\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
+      <Modified>2016-06-11T13:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.security.cryptography.x509certificates\4.1.0\runtimes\win\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
+      <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
+      <Modified>2016-06-11T13:14:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.security.principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+      <Modified>2016-06-11T13:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.duplex\4.0.2\lib\netcore50\System.ServiceModel.Duplex.dll">
+      <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
+      <Modified>2017-12-12T15:31:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.http\4.1.1\lib\netcore50\System.ServiceModel.Http.dll">
+      <PackagePath>System.ServiceModel.Http.dll</PackagePath>
+      <Modified>2017-12-12T15:31:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.nettcp\4.1.1\lib\netcore50\System.ServiceModel.NetTcp.dll">
+      <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
+      <Modified>2017-12-12T15:31:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.primitives\4.1.1\lib\netcore50\System.ServiceModel.Primitives.dll">
+      <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
+      <Modified>2017-12-12T15:31:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.security\4.0.2\lib\netcore50\System.ServiceModel.Security.dll">
+      <PackagePath>System.ServiceModel.Security.dll</PackagePath>
+      <Modified>2017-12-12T15:31:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.text.encoding.codepages\4.0.1\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+      <Modified>2016-06-11T13:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.text.regularexpressions\4.1.0\lib\netcore50\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+      <Modified>2016-06-11T13:14:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.threading\4.0.11\lib\netcore50\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+      <Modified>2016-06-11T13:15:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.threading.overlapped\4.0.1\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
+      <PackagePath>System.Threading.Overlapped.dll</PackagePath>
+      <Modified>2016-06-11T13:14:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.threading.tasks.dataflow\4.6.0\lib\netstandard1.1\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
+      <Modified>2016-06-11T13:14:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.threading.tasks.extensions\4.0.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll">
+      <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
+      <Modified>2016-06-11T13:14:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.threading.tasks.parallel\4.0.1\lib\netcore50\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+      <Modified>2016-06-11T13:14:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.xml.readerwriter\4.0.11\lib\netcore50\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+      <Modified>2016-06-11T13:15:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.xml.xdocument\4.0.11\lib\netcore50\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+      <Modified>2016-06-11T13:15:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.xml.xmldocument\4.0.1\lib\netstandard1.3\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+      <Modified>2016-06-11T13:15:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+      <Modified>2016-06-11T13:15:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\dank.jpg">
+      <PackagePath>Assets\dank.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:17.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\vlive150.jpg">
+      <PackagePath>Assets\vlive150.jpg</PackagePath>
+      <Modified>2019-05-25T07:47:25.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\vlive2.jpg">
+      <PackagePath>Assets\vlive2.jpg</PackagePath>
+      <Modified>2019-05-25T07:43:01.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\vlive44.jpg">
+      <PackagePath>Assets\vlive44.jpg</PackagePath>
+      <Modified>2019-05-25T07:48:35.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\vlivesplash.jpg">
+      <PackagePath>Assets\vlivesplash.jpg</PackagePath>
+      <Modified>2019-05-25T07:43:52.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[D744FD]슈주 리턴즈 %28SJ returns%29 .jpg">
+      <PackagePath>Assets\[D744FD]슈주 리턴즈 %28SJ returns%29 .jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[D864D9]JBJ.jpg">
+      <PackagePath>Assets\[D864D9]JBJ.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[DB347F]정세운%28Jeong Sewoon%29.jpg">
+      <PackagePath>Assets\[DB347F]정세운%28Jeong Sewoon%29.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.580</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[DB547B]NCT DREAM.jpg">
+      <PackagePath>Assets\[DB547B]NCT DREAM.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.589</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[DC6459]BRANDNEW BOYS.jpg">
+      <PackagePath>Assets\[DC6459]BRANDNEW BOYS.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[DCD44B]Wanna One.jpg">
+      <PackagePath>Assets\[DCD44B]Wanna One.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[DCF447]Red Velvet.jpg">
+      <PackagePath>Assets\[DCF447]Red Velvet.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[DD443D]사무엘%28Samuel%29.jpg">
+      <PackagePath>Assets\[DD443D]사무엘%28Samuel%29.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[DE341F]THE BOYZ.jpg">
+      <PackagePath>Assets\[DE341F]THE BOYZ.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.628</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[DEB40F]위에화엔터테인먼트%28YUEHUA Entertainment%29.jpg">
+      <PackagePath>Assets\[DEB40F]위에화엔터테인먼트%28YUEHUA Entertainment%29.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[DEE409]NCT 127.jpg">
+      <PackagePath>Assets\[DEE409]NCT 127.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[DFC3ED]CHOON %28춘%29 entertainment.jpg">
+      <PackagePath>Assets\[DFC3ED]CHOON %28춘%29 entertainment.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.653</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[E093D3]Golden Child.jpg">
+      <PackagePath>Assets\[E093D3]Golden Child.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[E3437D]Chung Ha .jpg">
+      <PackagePath>Assets\[E3437D]Chung Ha .jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[E37377]KBS예능.jpg">
+      <PackagePath>Assets\[E37377]KBS예능.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[E3B36F]Weki Meki.jpg">
+      <PackagePath>Assets\[E3B36F]Weki Meki.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.662</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[E42361]NCT의 night night!.jpg">
+      <PackagePath>Assets\[E42361]NCT의 night night!.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[E47357]LEE DONG WOOK.jpg">
+      <PackagePath>Assets\[E47357]LEE DONG WOOK.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[E58335]Kim So Hye %28김소혜%29.jpg">
+      <PackagePath>Assets\[E58335]Kim So Hye %28김소혜%29.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[E6431D]KARD.jpg">
+      <PackagePath>Assets\[E6431D]KARD.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[E7E2E9]KIM JAEJOONG.jpg">
+      <PackagePath>Assets\[E7E2E9]KIM JAEJOONG.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[E8A2D1]Suzy.jpg">
+      <PackagePath>Assets\[E8A2D1]Suzy.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[E8B2CF]Sơn Tùng M-TP.jpg">
+      <PackagePath>Assets\[E8B2CF]Sơn Tùng M-TP.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[E8E2C9]Woollim ent.jpg">
+      <PackagePath>Assets\[E8E2C9]Woollim ent.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[E922C1]tvN.jpg">
+      <PackagePath>Assets\[E922C1]tvN.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[E9A2B1]HIGHLIGHT.jpg">
+      <PackagePath>Assets\[E9A2B1]HIGHLIGHT.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.703</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[EA429D]24K.jpg">
+      <PackagePath>Assets\[EA429D]24K.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[EB8275]Khởi My.jpg">
+      <PackagePath>Assets\[EB8275]Khởi My.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.789</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[EBF267]JTBC PLUS.jpg">
+      <PackagePath>Assets\[EBF267]JTBC PLUS.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[EBFF]CNBLUE.jpg">
+      <PackagePath>Assets\[EBFF]CNBLUE.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[EC0265]LEE MIN HO.jpg">
+      <PackagePath>Assets\[EC0265]LEE MIN HO.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[EC1263]PRISTIN.jpg">
+      <PackagePath>Assets\[EC1263]PRISTIN.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[ECA251]V DRAMA.jpg">
+      <PackagePath>Assets\[ECA251]V DRAMA.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[ECB24F]VICTON.jpg">
+      <PackagePath>Assets\[ECB24F]VICTON.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[ECDF]GOT7.jpg">
+      <PackagePath>Assets\[ECDF]GOT7.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[ED523B]V WEB DRAMA .jpg">
+      <PackagePath>Assets\[ED523B]V WEB DRAMA .jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[ED6239]V FASHION.jpg">
+      <PackagePath>Assets\[ED6239]V FASHION.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[ED7237]SF9.jpg">
+      <PackagePath>Assets\[ED7237]SF9.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[EDBF]TWICE.jpg">
+      <PackagePath>Assets\[EDBF]TWICE.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[EE0225]YG STAGE.jpg">
+      <PackagePath>Assets\[EE0225]YG STAGE.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[EE2221]Show! Music core.jpg">
+      <PackagePath>Assets\[EE2221]Show! Music core.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[EE9F]miss A.jpg">
+      <PackagePath>Assets\[EE9F]miss A.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[EF0205]V COOKIE.jpg">
+      <PackagePath>Assets\[EF0205]V COOKIE.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[EF51FB]SHINHWA.jpg">
+      <PackagePath>Assets\[EF51FB]SHINHWA.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[EF7F]2PM.jpg">
+      <PackagePath>Assets\[EF7F]2PM.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[EFA1F1]SECHSKIES.jpg">
+      <PackagePath>Assets\[EFA1F1]SECHSKIES.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[EFF1E7]IN2IT.jpg">
+      <PackagePath>Assets\[EFF1E7]IN2IT.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F001E5]BLACKPINK.jpg">
+      <PackagePath>Assets\[F001E5]BLACKPINK.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F021E1]V PICK!.jpg">
+      <PackagePath>Assets\[F021E1]V PICK!.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.224</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F05F]Wonder Girls.jpg">
+      <PackagePath>Assets\[F05F]Wonder Girls.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F071D7]HyunA.jpg">
+      <PackagePath>Assets\[F071D7]HyunA.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F081D5]Minzy.jpg">
+      <PackagePath>Assets\[F081D5]Minzy.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F0F1C7]구구단%28gugudan%29.jpg">
+      <PackagePath>Assets\[F0F1C7]구구단%28gugudan%29.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F13F]BIGBANG.jpg">
+      <PackagePath>Assets\[F13F]BIGBANG.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F141BD]스누퍼%28SNUPER%29.jpg">
+      <PackagePath>Assets\[F141BD]스누퍼%28SNUPER%29.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F161B9]PLEDIS.jpg">
+      <PackagePath>Assets\[F161B9]PLEDIS.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F181B5]YOUNGJI.jpg">
+      <PackagePath>Assets\[F181B5]YOUNGJI.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F191B3]PARK SHIN HYE.jpg">
+      <PackagePath>Assets\[F191B3]PARK SHIN HYE.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F1F1A7]FANTAGIO.jpg">
+      <PackagePath>Assets\[F1F1A7]FANTAGIO.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.985</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F21F]V Special.jpg">
+      <PackagePath>Assets\[F21F]V Special.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.378</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F2419D]BOYFRIEND.jpg">
+      <PackagePath>Assets\[F2419D]BOYFRIEND.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F28195]IMFACT.jpg">
+      <PackagePath>Assets\[F28195]IMFACT.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.461</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F2A191]Noo Phước Thịnh.jpg">
+      <PackagePath>Assets\[F2A191]Noo Phước Thịnh.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:15.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F2C18D]PENTAGON.jpg">
+      <PackagePath>Assets\[F2C18D]PENTAGON.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F2E189]CLC.jpg">
+      <PackagePath>Assets\[F2E189]CLC.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F2F187]NAMKOONG MIN.jpg">
+      <PackagePath>Assets\[F2F187]NAMKOONG MIN.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F3317F]FNC NEOZ SCHOOL.jpg">
+      <PackagePath>Assets\[F3317F]FNC NEOZ SCHOOL.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.425</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F3517B]Jessica.jpg">
+      <PackagePath>Assets\[F3517B]Jessica.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F36179]AKMU.jpg">
+      <PackagePath>Assets\[F36179]AKMU.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.469</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F3C16D]NCT.jpg">
+      <PackagePath>Assets\[F3C16D]NCT.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F3D16B]DIA.jpg">
+      <PackagePath>Assets\[F3D16B]DIA.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F3E169]Boys Republic.jpg">
+      <PackagePath>Assets\[F3E169]Boys Republic.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.047</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F40165]KNK.jpg">
+      <PackagePath>Assets\[F40165]KNK.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.478</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F41163]Jellyfish Entertainment.jpg">
+      <PackagePath>Assets\[F41163]Jellyfish Entertainment.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F42161]Park Hae Jin.jpg">
+      <PackagePath>Assets\[F42161]Park Hae Jin.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F4E149]ONSTYLE &amp;amp%3b OLIVE.jpg">
+      <PackagePath>Assets\[F4E149]ONSTYLE &amp;amp%3b OLIVE.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F4F147]DAY6.jpg">
+      <PackagePath>Assets\[F4F147]DAY6.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F50145]Sungha Jung.jpg">
+      <PackagePath>Assets\[F50145]Sungha Jung.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F51143]OH MY GIRL.jpg">
+      <PackagePath>Assets\[F51143]OH MY GIRL.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F57137]LEE HI.jpg">
+      <PackagePath>Assets\[F57137]LEE HI.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F58135]B.I.G.jpg">
+      <PackagePath>Assets\[F58135]B.I.G.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F59133]NU%27EST.jpg">
+      <PackagePath>Assets\[F59133]NU%27EST.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F5B12F]ERIC.jpg">
+      <PackagePath>Assets\[F5B12F]ERIC.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F5F127]우주소녀%28WJSN%29.jpg">
+      <PackagePath>Assets\[F5F127]우주소녀%28WJSN%29.jpg</PackagePath>
+      <Modified>2018-03-16T12:00:45.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F60125]LADIES%27 CODE.jpg">
+      <PackagePath>Assets\[F60125]LADIES%27 CODE.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F61123]BRANDNEW MUSIC.jpg">
+      <PackagePath>Assets\[F61123]BRANDNEW MUSIC.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F6411D]Double S 301.jpg">
+      <PackagePath>Assets\[F6411D]Double S 301.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F6511B]SONAMOO.jpg">
+      <PackagePath>Assets\[F6511B]SONAMOO.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F68115]FIESTAR.jpg">
+      <PackagePath>Assets\[F68115]FIESTAR.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.568</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F69113]LEESOOHYUK.jpg">
+      <PackagePath>Assets\[F69113]LEESOOHYUK.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F6B10F]MADTOWN.jpg">
+      <PackagePath>Assets\[F6B10F]MADTOWN.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F6E109]KANG TAE OH.jpg">
+      <PackagePath>Assets\[F6E109]KANG TAE OH.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F6F107]ASTRO.jpg">
+      <PackagePath>Assets\[F6F107]ASTRO.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F73FF]GFRIEND.jpg">
+      <PackagePath>Assets\[F73FF]GFRIEND.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F75FB]Jung Joon Young.jpg">
+      <PackagePath>Assets\[F75FB]Jung Joon Young.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F79F3]ANDY.jpg">
+      <PackagePath>Assets\[F79F3]ANDY.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F7EE9]Hwang Chi Yeul.jpg">
+      <PackagePath>Assets\[F7EE9]Hwang Chi Yeul.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F7FE7]Hari Won.jpg">
+      <PackagePath>Assets\[F7FE7]Hari Won.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F80E5]Park Si Hwan .jpg">
+      <PackagePath>Assets\[F80E5]Park Si Hwan .jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F82E1]KISUM.jpg">
+      <PackagePath>Assets\[F82E1]KISUM.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F85DB]Kelvin Khánh.jpg">
+      <PackagePath>Assets\[F85DB]Kelvin Khánh.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F86D9]Chi Pu.jpg">
+      <PackagePath>Assets\[F86D9]Chi Pu.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F88D5]UNIQ.jpg">
+      <PackagePath>Assets\[F88D5]UNIQ.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.314</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F8AD1]Phở Đặc Biệt.jpg">
+      <PackagePath>Assets\[F8AD1]Phở Đặc Biệt.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.140</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F8DCB]LEE MIN WOO.jpg">
+      <PackagePath>Assets\[F8DCB]LEE MIN WOO.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F8EC9]Rain.jpg">
+      <PackagePath>Assets\[F8EC9]Rain.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F90C5]PSY.jpg">
+      <PackagePath>Assets\[F90C5]PSY.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F91C3]Seo IN GUK.jpg">
+      <PackagePath>Assets\[F91C3]Seo IN GUK.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F92C1]SEO KANG JUN.jpg">
+      <PackagePath>Assets\[F92C1]SEO KANG JUN.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F93BF]HUH GAK.jpg">
+      <PackagePath>Assets\[F93BF]HUH GAK.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F94BD]EXO.jpg">
+      <PackagePath>Assets\[F94BD]EXO.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F97B7]EPIK HIGH.jpg">
+      <PackagePath>Assets\[F97B7]EPIK HIGH.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F99B3]SEVENTEEN.jpg">
+      <PackagePath>Assets\[F99B3]SEVENTEEN.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F9AB1]C-JeS.jpg">
+      <PackagePath>Assets\[F9AB1]C-JeS.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.169</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F9BAF]EXID.jpg">
+      <PackagePath>Assets\[F9BAF]EXID.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F9CAD]SHIN HYE SUNG.jpg">
+      <PackagePath>Assets\[F9CAD]SHIN HYE SUNG.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F9DAB]Hong Jin Young.jpg">
+      <PackagePath>Assets\[F9DAB]Hong Jin Young.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F9EA9]AOMG.jpg">
+      <PackagePath>Assets\[F9EA9]AOMG.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[F9FA7]JOO.jpg">
+      <PackagePath>Assets\[F9FA7]JOO.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.206</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FA0A5]V VIETNAM.jpg">
+      <PackagePath>Assets\[FA0A5]V VIETNAM.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FA1A3]V MOVIE.jpg">
+      <PackagePath>Assets\[FA1A3]V MOVIE.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FA2A1]K STAR.jpg">
+      <PackagePath>Assets\[FA2A1]K STAR.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FA39F]V BEAUTY.jpg">
+      <PackagePath>Assets\[FA39F]V BEAUTY.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FA49D]B.A.P.jpg">
+      <PackagePath>Assets\[FA49D]B.A.P.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FA59B]April.jpg">
+      <PackagePath>Assets\[FA59B]April.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.631</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FA699]JJCC.jpg">
+      <PackagePath>Assets\[FA699]JJCC.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FA895]IU.jpg">
+      <PackagePath>Assets\[FA895]IU.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FA993]V MUSIC.jpg">
+      <PackagePath>Assets\[FA993]V MUSIC.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FAA91]Brown Eyed Girls.jpg">
+      <PackagePath>Assets\[FAA91]Brown Eyed Girls.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FAC8D]MAGIC STRAWBERRY SOUND.jpg">
+      <PackagePath>Assets\[FAC8D]MAGIC STRAWBERRY SOUND.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.676</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FAD8B]KIM DONG WAN.jpg">
+      <PackagePath>Assets\[FAD8B]KIM DONG WAN.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.685</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FAE89]NAVER SPORTS.jpg">
+      <PackagePath>Assets\[FAE89]NAVER SPORTS.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FAF87]ALi.jpg">
+      <PackagePath>Assets\[FAF87]ALi.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.703</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FB183]LOVELYZ.jpg">
+      <PackagePath>Assets\[FB183]LOVELYZ.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FB281]BRAVE Entertainment.jpg">
+      <PackagePath>Assets\[FB281]BRAVE Entertainment.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FB37F]MBK entertainment.jpg">
+      <PackagePath>Assets\[FB37F]MBK entertainment.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FB47D]STAREMPIRE.jpg">
+      <PackagePath>Assets\[FB47D]STAREMPIRE.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.717</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FB57B]MFBTY.jpg">
+      <PackagePath>Assets\[FB57B]MFBTY.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FB679]10PM.jpg">
+      <PackagePath>Assets\[FB679]10PM.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FB777]NELL.jpg">
+      <PackagePath>Assets\[FB777]NELL.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FB875]T-ARA.jpg">
+      <PackagePath>Assets\[FB875]T-ARA.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FB973]IDOL x  IDOL .jpg">
+      <PackagePath>Assets\[FB973]IDOL x  IDOL .jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FBA71]Block B.jpg">
+      <PackagePath>Assets\[FBA71]Block B.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FBB6F]LEE JONG SUK.jpg">
+      <PackagePath>Assets\[FBB6F]LEE JONG SUK.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FBC6D]YGKPLUS.jpg">
+      <PackagePath>Assets\[FBC6D]YGKPLUS.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FBD6B]sidus HQ.jpg">
+      <PackagePath>Assets\[FBD6B]sidus HQ.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FBE69]JUNJIN.jpg">
+      <PackagePath>Assets\[FBE69]JUNJIN.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FC065]N.Flying.jpg">
+      <PackagePath>Assets\[FC065]N.Flying.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.867</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FC163]CHEETAH.jpg">
+      <PackagePath>Assets\[FC163]CHEETAH.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FC261]YOUNHA.jpg">
+      <PackagePath>Assets\[FC261]YOUNHA.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FC35F]FLY TO THE SKY.jpg">
+      <PackagePath>Assets\[FC35F]FLY TO THE SKY.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FC45D]Arirang TV &amp;amp%3b RADIO.jpg">
+      <PackagePath>Assets\[FC45D]Arirang TV &amp;amp%3b RADIO.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FC55B]After School Club.jpg">
+      <PackagePath>Assets\[FC55B]After School Club.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FC659]STARSHIP.jpg">
+      <PackagePath>Assets\[FC659]STARSHIP.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FC757]Jessi.jpg">
+      <PackagePath>Assets\[FC757]Jessi.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FC855]Ailee.jpg">
+      <PackagePath>Assets\[FC855]Ailee.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.473</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FC953]DSPmedia.jpg">
+      <PackagePath>Assets\[FC953]DSPmedia.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FCA51]Lee Joon Gi.jpg">
+      <PackagePath>Assets\[FCA51]Lee Joon Gi.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FCB4F]CJ E&amp;amp%3bM MUSIC.jpg">
+      <PackagePath>Assets\[FCB4F]CJ E&amp;amp%3bM MUSIC.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FCD4B]MAMAMOO.jpg">
+      <PackagePath>Assets\[FCD4B]MAMAMOO.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FCE49]Park Bo Young.jpg">
+      <PackagePath>Assets\[FCE49]Park Bo Young.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FCF47]UP10TION.jpg">
+      <PackagePath>Assets\[FCF47]UP10TION.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FD045]TEENTOP.jpg">
+      <PackagePath>Assets\[FD045]TEENTOP.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FD143]Joo won.jpg">
+      <PackagePath>Assets\[FD143]Joo won.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:16.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FD241]iKON.jpg">
+      <PackagePath>Assets\[FD241]iKON.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FD33F]ERIC NAM.jpg">
+      <PackagePath>Assets\[FD33F]ERIC NAM.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FD53B]SMTOWN.jpg">
+      <PackagePath>Assets\[FD53B]SMTOWN.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FD737]BTOB.jpg">
+      <PackagePath>Assets\[FD737]BTOB.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FD835]FNC.jpg">
+      <PackagePath>Assets\[FD835]FNC.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:17.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FD933]CUBE.jpg">
+      <PackagePath>Assets\[FD933]CUBE.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.531</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FDA31]JYPnation.jpg">
+      <PackagePath>Assets\[FDA31]JYPnation.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.535</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FDB2F]YG Family.jpg">
+      <PackagePath>Assets\[FDB2F]YG Family.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FDC2D]WINNER.jpg">
+      <PackagePath>Assets\[FDC2D]WINNER.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FDD2B]M2.jpg">
+      <PackagePath>Assets\[FDD2B]M2.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FDD2B]Mnet MPD.jpg">
+      <PackagePath>Assets\[FDD2B]Mnet MPD.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:17.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FDE29]Apink.jpg">
+      <PackagePath>Assets\[FDE29]Apink.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.562</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FDF27]Girl%27s Day.jpg">
+      <PackagePath>Assets\[FDF27]Girl%27s Day.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FE025]BEAST.jpg">
+      <PackagePath>Assets\[FE025]BEAST.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FE123]MONSTA X.jpg">
+      <PackagePath>Assets\[FE123]MONSTA X.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FE221]SISTAR.jpg">
+      <PackagePath>Assets\[FE221]SISTAR.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FE31F]B1A4.jpg">
+      <PackagePath>Assets\[FE31F]B1A4.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FE41D]VIXX.jpg">
+      <PackagePath>Assets\[FE41D]VIXX.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FE51B]JUN HYO SEONG.jpg">
+      <PackagePath>Assets\[FE51B]JUN HYO SEONG.jpg</PackagePath>
+      <Modified>2018-03-15T11:53:17.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FE619]BTS.jpg">
+      <PackagePath>Assets\[FE619]BTS.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FE815]INFINITE.jpg">
+      <PackagePath>Assets\[FE815]INFINITE.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.630</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FE913]FTISLAND.jpg">
+      <PackagePath>Assets\[FE913]FTISLAND.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\[FEA11]AOA.jpg">
+      <PackagePath>Assets\[FEA11]AOA.jpg</PackagePath>
+      <Modified>2018-03-16T11:51:33.646</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\HtmlAgilityPack.dll">
+      <PackagePath>Assets\HtmlAgilityPack.dll</PackagePath>
+      <Modified>2018-03-16T12:20:01.394</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\WebDriver.dll">
+      <PackagePath>Assets\WebDriver.dll</PackagePath>
+      <Modified>2018-03-16T12:20:01.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\HtmlAgilityPack.xml">
+      <PackagePath>Assets\HtmlAgilityPack.xml</PackagePath>
+      <Modified>2018-03-16T12:20:01.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\WebDriver.xml">
+      <PackagePath>Assets\WebDriver.xml</PackagePath>
+      <Modified>2018-03-16T12:20:01.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2018-03-15T11:49:59.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\phantomjs.exe">
+      <PackagePath>Assets\phantomjs.exe</PackagePath>
+      <Modified>2018-03-16T12:20:01.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\WpfApp1.exe">
+      <PackagePath>Assets\WpfApp1.exe</PackagePath>
+      <Modified>2018-03-16T12:20:01.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\vlive1.png">
+      <PackagePath>Assets\vlive1.png</PackagePath>
+      <Modified>2019-05-25T07:42:04.189</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\vlive150.png">
+      <PackagePath>Assets\vlive150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-05-25T07:47:41.475</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\vlive44.png">
+      <PackagePath>Assets\vlive44.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-05-25T07:48:42.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\vlivelogo.png">
+      <PackagePath>Assets\vlivelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-05-25T07:49:14.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\vlivesplash.png">
+      <PackagePath>Assets\vlivesplash.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-05-25T07:49:18.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <Modified>2018-03-15T11:53:20.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\bin\x86\Debug\Vlive Stream Machine.xr.xml">
+      <PackagePath>Vlive Stream Machine.xr.xml</PackagePath>
+      <Modified>2018-04-17T13:59:54.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2018-04-11T14:13:17.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2018-04-17T13:59:54.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2017-09-28T06:28:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-06-18T12:34:13.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brandon Duong\source\repos\Vlive Stream Machine\Vlive Stream Machine\bin\x86\Debug\Core\Vlive Stream Machine.exe">
+      <PackagePath>Vlive Stream Machine.exe</PackagePath>
+      <Modified>2019-05-25T07:49:55.833</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25915.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25915.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25915.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25915.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x64\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25915.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25915.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x86\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.26428.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26428.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.26428.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26428.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.26428.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26428.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

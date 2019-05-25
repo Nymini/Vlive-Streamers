@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{CAE32F30-ACB6-411A-9353-D17C9AA1984F}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vlive_Stream_Machine</RootNamespace>
+    <AssemblyName>Vlive Stream Machine</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.16299.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10586.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
+    <PackageCertificateKeyFile>Vlive Stream Machine_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Assets\WpfApp1.exe.config" />
+    <None Include="Vlive Stream Machine_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\dank.jpg" />
+    <Content Include="Assets\HtmlAgilityPack.dll" />
+    <Content Include="Assets\HtmlAgilityPack.pdb" />
+    <Content Include="Assets\HtmlAgilityPack.xml" />
+    <Content Include="Assets\phantomjs.exe" />
+    <Content Include="Assets\vlive1.png" />
+    <Content Include="Assets\vlive150.jpg" />
+    <Content Include="Assets\vlive150.png" />
+    <Content Include="Assets\vlive2.jpg" />
+    <Content Include="Assets\vlive44.jpg" />
+    <Content Include="Assets\vlive44.png" />
+    <Content Include="Assets\vlivelogo.png" />
+    <Content Include="Assets\vlivesplash.jpg" />
+    <Content Include="Assets\vlivesplash.png" />
+    <Content Include="Assets\WebDriver.dll" />
+    <Content Include="Assets\WebDriver.xml" />
+    <Content Include="Assets\WpfApp1.exe" />
+    <Content Include="Assets\WpfApp1.pdb" />
+    <Content Include="Assets\[D744FD]슈주 리턴즈 %28SJ returns%29 .jpg" />
+    <Content Include="Assets\[D864D9]JBJ.jpg" />
+    <Content Include="Assets\[DB347F]정세운%28Jeong Sewoon%29.jpg" />
+    <Content Include="Assets\[DB547B]NCT DREAM.jpg" />
+    <Content Include="Assets\[DC6459]BRANDNEW BOYS.jpg" />
+    <Content Include="Assets\[DCD44B]Wanna One.jpg" />
+    <Content Include="Assets\[DCF447]Red Velvet.jpg" />
+    <Content Include="Assets\[DD443D]사무엘%28Samuel%29.jpg" />
+    <Content Include="Assets\[DE341F]THE BOYZ.jpg" />
+    <Content Include="Assets\[DEB40F]위에화엔터테인먼트%28YUEHUA Entertainment%29.jpg" />
+    <Content Include="Assets\[DEE409]NCT 127.jpg" />
+    <Content Include="Assets\[DFC3ED]CHOON %28춘%29 entertainment.jpg" />
+    <Content Include="Assets\[E093D3]Golden Child.jpg" />
+    <Content Include="Assets\[E3437D]Chung Ha .jpg" />
+    <Content Include="Assets\[E37377]KBS예능.jpg" />
+    <Content Include="Assets\[E3B36F]Weki Meki.jpg" />
+    <Content Include="Assets\[E42361]NCT의 night night!.jpg" />
+    <Content Include="Assets\[E47357]LEE DONG WOOK.jpg" />
+    <Content Include="Assets\[E58335]Kim So Hye %28김소혜%29.jpg" />
+    <Content Include="Assets\[E6431D]KARD.jpg" />
+    <Content Include="Assets\[E7E2E9]KIM JAEJOONG.jpg" />
+    <Content Include="Assets\[E8A2D1]Suzy.jpg" />
+    <Content Include="Assets\[E8B2CF]Sơn Tùng M-TP.jpg" />
+    <Content Include="Assets\[E8E2C9]Woollim ent.jpg" />
+    <Content Include="Assets\[E922C1]tvN.jpg" />
+    <Content Include="Assets\[E9A2B1]HIGHLIGHT.jpg" />
+    <Content Include="Assets\[EA429D]24K.jpg" />
+    <Content Include="Assets\[EB8275]Khởi My.jpg" />
+    <Content Include="Assets\[EBF267]JTBC PLUS.jpg" />
+    <Content Include="Assets\[EBFF]CNBLUE.jpg" />
+    <Content Include="Assets\[EC0265]LEE MIN HO.jpg" />
+    <Content Include="Assets\[EC1263]PRISTIN.jpg" />
+    <Content Include="Assets\[ECA251]V DRAMA.jpg" />
+    <Content Include="Assets\[ECB24F]VICTON.jpg" />
+    <Content Include="Assets\[ECDF]GOT7.jpg" />
+    <Content Include="Assets\[ED523B]V WEB DRAMA .jpg" />
+    <Content Include="Assets\[ED6239]V FASHION.jpg" />
+    <Content Include="Assets\[ED7237]SF9.jpg" />
+    <Content Include="Assets\[EDBF]TWICE.jpg" />
+    <Content Include="Assets\[EE0225]YG STAGE.jpg" />
+    <Content Include="Assets\[EE2221]Show! Music core.jpg" />
+    <Content Include="Assets\[EE9F]miss A.jpg" />
+    <Content Include="Assets\[EF0205]V COOKIE.jpg" />
+    <Content Include="Assets\[EF51FB]SHINHWA.jpg" />
+    <Content Include="Assets\[EF7F]2PM.jpg" />
+    <Content Include="Assets\[EFA1F1]SECHSKIES.jpg" />
+    <Content Include="Assets\[EFF1E7]IN2IT.jpg" />
+    <Content Include="Assets\[F001E5]BLACKPINK.jpg" />
+    <Content Include="Assets\[F021E1]V PICK!.jpg" />
+    <Content Include="Assets\[F05F]Wonder Girls.jpg" />
+    <Content Include="Assets\[F071D7]HyunA.jpg" />
+    <Content Include="Assets\[F081D5]Minzy.jpg" />
+    <Content Include="Assets\[F0F1C7]구구단%28gugudan%29.jpg" />
+    <Content Include="Assets\[F13F]BIGBANG.jpg" />
+    <Content Include="Assets\[F141BD]스누퍼%28SNUPER%29.jpg" />
+    <Content Include="Assets\[F161B9]PLEDIS.jpg" />
+    <Content Include="Assets\[F181B5]YOUNGJI.jpg" />
+    <Content Include="Assets\[F191B3]PARK SHIN HYE.jpg" />
+    <Content Include="Assets\[F1F1A7]FANTAGIO.jpg" />
+    <Content Include="Assets\[F21F]V Special.jpg" />
+    <Content Include="Assets\[F2419D]BOYFRIEND.jpg" />
+    <Content Include="Assets\[F28195]IMFACT.jpg" />
+    <Content Include="Assets\[F2A191]Noo Phước Thịnh.jpg" />
+    <Content Include="Assets\[F2C18D]PENTAGON.jpg" />
+    <Content Include="Assets\[F2E189]CLC.jpg" />
+    <Content Include="Assets\[F2F187]NAMKOONG MIN.jpg" />
+    <Content Include="Assets\[F3317F]FNC NEOZ SCHOOL.jpg" />
+    <Content Include="Assets\[F3517B]Jessica.jpg" />
+    <Content Include="Assets\[F36179]AKMU.jpg" />
+    <Content Include="Assets\[F3C16D]NCT.jpg" />
+    <Content Include="Assets\[F3D16B]DIA.jpg" />
+    <Content Include="Assets\[F3E169]Boys Republic.jpg" />
+    <Content Include="Assets\[F40165]KNK.jpg" />
+    <Content Include="Assets\[F41163]Jellyfish Entertainment.jpg" />
+    <Content Include="Assets\[F42161]Park Hae Jin.jpg" />
+    <Content Include="Assets\[F4E149]ONSTYLE &amp;amp%3b OLIVE.jpg" />
+    <Content Include="Assets\[F4F147]DAY6.jpg" />
+    <Content Include="Assets\[F50145]Sungha Jung.jpg" />
+    <Content Include="Assets\[F51143]OH MY GIRL.jpg" />
+    <Content Include="Assets\[F57137]LEE HI.jpg" />
+    <Content Include="Assets\[F58135]B.I.G.jpg" />
+    <Content Include="Assets\[F59133]NU%27EST.jpg" />
+    <Content Include="Assets\[F5B12F]ERIC.jpg" />
+    <Content Include="Assets\[F5F127]우주소녀%28WJSN%29.jpg" />
+    <Content Include="Assets\[F60125]LADIES%27 CODE.jpg" />
+    <Content Include="Assets\[F61123]BRANDNEW MUSIC.jpg" />
+    <Content Include="Assets\[F6411D]Double S 301.jpg" />
+    <Content Include="Assets\[F6511B]SONAMOO.jpg" />
+    <Content Include="Assets\[F68115]FIESTAR.jpg" />
+    <Content Include="Assets\[F69113]LEESOOHYUK.jpg" />
+    <Content Include="Assets\[F6B10F]MADTOWN.jpg" />
+    <Content Include="Assets\[F6E109]KANG TAE OH.jpg" />
+    <Content Include="Assets\[F6F107]ASTRO.jpg" />
+    <Content Include="Assets\[F73FF]GFRIEND.jpg" />
+    <Content Include="Assets\[F75FB]Jung Joon Young.jpg" />
+    <Content Include="Assets\[F79F3]ANDY.jpg" />
+    <Content Include="Assets\[F7EE9]Hwang Chi Yeul.jpg" />
+    <Content Include="Assets\[F7FE7]Hari Won.jpg" />
+    <Content Include="Assets\[F80E5]Park Si Hwan .jpg" />
+    <Content Include="Assets\[F82E1]KISUM.jpg" />
+    <Content Include="Assets\[F85DB]Kelvin Khánh.jpg" />
+    <Content Include="Assets\[F86D9]Chi Pu.jpg" />
+    <Content Include="Assets\[F88D5]UNIQ.jpg" />
+    <Content Include="Assets\[F8AD1]Phở Đặc Biệt.jpg" />
+    <Content Include="Assets\[F8DCB]LEE MIN WOO.jpg" />
+    <Content Include="Assets\[F8EC9]Rain.jpg" />
+    <Content Include="Assets\[F90C5]PSY.jpg" />
+    <Content Include="Assets\[F91C3]Seo IN GUK.jpg" />
+    <Content Include="Assets\[F92C1]SEO KANG JUN.jpg" />
+    <Content Include="Assets\[F93BF]HUH GAK.jpg" />
+    <Content Include="Assets\[F94BD]EXO.jpg" />
+    <Content Include="Assets\[F97B7]EPIK HIGH.jpg" />
+    <Content Include="Assets\[F99B3]SEVENTEEN.jpg" />
+    <Content Include="Assets\[F9AB1]C-JeS.jpg" />
+    <Content Include="Assets\[F9BAF]EXID.jpg" />
+    <Content Include="Assets\[F9CAD]SHIN HYE SUNG.jpg" />
+    <Content Include="Assets\[F9DAB]Hong Jin Young.jpg" />
+    <Content Include="Assets\[F9EA9]AOMG.jpg" />
+    <Content Include="Assets\[F9FA7]JOO.jpg" />
+    <Content Include="Assets\[FA0A5]V VIETNAM.jpg" />
+    <Content Include="Assets\[FA1A3]V MOVIE.jpg" />
+    <Content Include="Assets\[FA2A1]K STAR.jpg" />
+    <Content Include="Assets\[FA39F]V BEAUTY.jpg" />
+    <Content Include="Assets\[FA49D]B.A.P.jpg" />
+    <Content Include="Assets\[FA59B]April.jpg" />
+    <Content Include="Assets\[FA699]JJCC.jpg" />
+    <Content Include="Assets\[FA895]IU.jpg" />
+    <Content Include="Assets\[FA993]V MUSIC.jpg" />
+    <Content Include="Assets\[FAA91]Brown Eyed Girls.jpg" />
+    <Content Include="Assets\[FAC8D]MAGIC STRAWBERRY SOUND.jpg" />
+    <Content Include="Assets\[FAD8B]KIM DONG WAN.jpg" />
+    <Content Include="Assets\[FAE89]NAVER SPORTS.jpg" />
+    <Content Include="Assets\[FAF87]ALi.jpg" />
+    <Content Include="Assets\[FB183]LOVELYZ.jpg" />
+    <Content Include="Assets\[FB281]BRAVE Entertainment.jpg" />
+    <Content Include="Assets\[FB37F]MBK entertainment.jpg" />
+    <Content Include="Assets\[FB47D]STAREMPIRE.jpg" />
+    <Content Include="Assets\[FB57B]MFBTY.jpg" />
+    <Content Include="Assets\[FB679]10PM.jpg" />
+    <Content Include="Assets\[FB777]NELL.jpg" />
+    <Content Include="Assets\[FB875]T-ARA.jpg" />
+    <Content Include="Assets\[FB973]IDOL x  IDOL .jpg" />
+    <Content Include="Assets\[FBA71]Block B.jpg" />
+    <Content Include="Assets\[FBB6F]LEE JONG SUK.jpg" />
+    <Content Include="Assets\[FBC6D]YGKPLUS.jpg" />
+    <Content Include="Assets\[FBD6B]sidus HQ.jpg" />
+    <Content Include="Assets\[FBE69]JUNJIN.jpg" />
+    <Content Include="Assets\[FC065]N.Flying.jpg" />
+    <Content Include="Assets\[FC163]CHEETAH.jpg" />
+    <Content Include="Assets\[FC261]YOUNHA.jpg" />
+    <Content Include="Assets\[FC35F]FLY TO THE SKY.jpg" />
+    <Content Include="Assets\[FC45D]Arirang TV &amp;amp%3b RADIO.jpg" />
+    <Content Include="Assets\[FC55B]After School Club.jpg" />
+    <Content Include="Assets\[FC659]STARSHIP.jpg" />
+    <Content Include="Assets\[FC757]Jessi.jpg" />
+    <Content Include="Assets\[FC855]Ailee.jpg" />
+    <Content Include="Assets\[FC953]DSPmedia.jpg" />
+    <Content Include="Assets\[FCA51]Lee Joon Gi.jpg" />
+    <Content Include="Assets\[FCB4F]CJ E&amp;amp%3bM MUSIC.jpg" />
+    <Content Include="Assets\[FCD4B]MAMAMOO.jpg" />
+    <Content Include="Assets\[FCE49]Park Bo Young.jpg" />
+    <Content Include="Assets\[FCF47]UP10TION.jpg" />
+    <Content Include="Assets\[FD045]TEENTOP.jpg" />
+    <Content Include="Assets\[FD143]Joo won.jpg" />
+    <Content Include="Assets\[FD241]iKON.jpg" />
+    <Content Include="Assets\[FD33F]ERIC NAM.jpg" />
+    <Content Include="Assets\[FD53B]SMTOWN.jpg" />
+    <Content Include="Assets\[FD737]BTOB.jpg" />
+    <Content Include="Assets\[FD835]FNC.jpg" />
+    <Content Include="Assets\[FD933]CUBE.jpg" />
+    <Content Include="Assets\[FDA31]JYPnation.jpg" />
+    <Content Include="Assets\[FDB2F]YG Family.jpg" />
+    <Content Include="Assets\[FDC2D]WINNER.jpg" />
+    <Content Include="Assets\[FDD2B]M2.jpg" />
+    <Content Include="Assets\[FDD2B]Mnet MPD.jpg" />
+    <Content Include="Assets\[FDE29]Apink.jpg" />
+    <Content Include="Assets\[FDF27]Girl%27s Day.jpg" />
+    <Content Include="Assets\[FE025]BEAST.jpg" />
+    <Content Include="Assets\[FE123]MONSTA X.jpg" />
+    <Content Include="Assets\[FE221]SISTAR.jpg" />
+    <Content Include="Assets\[FE31F]B1A4.jpg" />
+    <Content Include="Assets\[FE41D]VIXX.jpg" />
+    <Content Include="Assets\[FE51B]JUN HYO SEONG.jpg" />
+    <Content Include="Assets\[FE619]BTS.jpg" />
+    <Content Include="Assets\[FE815]INFINITE.jpg" />
+    <Content Include="Assets\[FE913]FTISLAND.jpg" />
+    <Content Include="Assets\[FEA11]AOA.jpg" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\StoreLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.0.8</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="WindowsDesktop, Version=10.0.16299.0">
+      <Name>Windows Desktop Extensions for the UWP</Name>
+    </SDKReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,43 @@
+﻿<Page x:Name="page"
+    x:Class="Vlive_Stream_Machine.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Vlive_Stream_Machine"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+
+    mc:Ignorable="d">
+
+    <Grid x:Name="main" Background="#FF54F7FF">
+        <Border x:Name="bar" BorderBrush="Black" HorizontalAlignment="Left" Height="32" Margin="0,0,-806,0" VerticalAlignment="Top" Width="2306" Background="#FF414858"/>
+        <Pivot x:Name="Tabs" Title="" Margin="468,0,-11,0" Foreground="#FFFFFFFF" FontSize="22">
+        </Pivot>
+        <Border x:Name="vidb" BorderBrush="Black" HorizontalAlignment="Left"  Margin="0,349,0,-182" VerticalAlignment="Top" Height="313" Width="480" Background="#FF414858"/>
+
+        <TextBox x:Name="vids"  AcceptsReturn="True" Text="OuterHTML here..." HorizontalAlignment="Left" Margin="0,349,0,-182" TextWrapping="Wrap" VerticalAlignment="Top" Height="313" Width="480" Foreground="#FFFFFFFF" Background="#00414858"/>
+        <TextBlock x:Name="data" HorizontalAlignment="Left" Margin="5,281,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="63" Width="470" TextAlignment="Center" FontSize="20" Foreground="White"/>
+        <Image x:Name="img" HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="480" Margin="0,32,0,0"/>
+        <Button x:Name="conv" Content="Convert" HorizontalAlignment="Left" Margin="344,236,0,0" VerticalAlignment="Top" Height="45" Width="95" Click="Button1_Click" Background="#FF414858" Foreground="White"/>
+        <Button x:Name="min" Content="-" HorizontalAlignment="Left" Margin="172,244,0,0" VerticalAlignment="Top" Width="40" Background="#FF414858" Click="Button_Click_1" Foreground="White"/>
+        <Button x:Name="max" Content="+" HorizontalAlignment="Left" Margin="268,244,0,0" VerticalAlignment="Top" Width="40" Background="#FF414858" Click="Button_Click_2" Foreground="White"/>
+        <Button x:Name="start" Content="Start" HorizontalAlignment="Left" Margin="41,237,0,0" VerticalAlignment="Top" Height="45" Width="95" Click="Button_Click" Background="#FF414858" Foreground="White"/>
+
+        <TextBlock x:Name="numloops" TextAlignment="Center" FontSize="24" Foreground="#FF44475A" HorizontalAlignment="Left" Margin="192,244,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Height="32" Width="95"/>
+        <TextBlock x:Name="name" HorizontalAlignment="Left" Margin="41,197,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="58" Width="398" TextAlignment="Center" FontSize="24" FontWeight="Bold" Foreground="White"/>
+        <Button x:Name="bm" Content="-" HorizontalAlignment="Left" Margin="622,0,0,0" VerticalAlignment="Top" Width="45" Click="Button_Click_3" Foreground="White" Background="#33000000"/>
+        <Button x:Name="bp" Content="+" HorizontalAlignment="Left" Margin="687,0,0,0" VerticalAlignment="Top" Width="48" Click="Button_Click_4" Foreground="White" Background="#33000000"/>
+        <Button x:Name="font_col" Content="Font Colour" HorizontalAlignment="Left" Margin="756,-1,0,0" VerticalAlignment="Top" Width="102" Click="change_font_colour" Foreground="White" Background="#33000000"/>
+        <ComboBox x:Name="dropdown" HorizontalAlignment="Left" Margin="936,0,0,0" VerticalAlignment="Top" Width="303" SelectionChanged="dropdown_SelectionChanged"/>
+        <Button x:Name="save" Content="Save" HorizontalAlignment="Left" Margin="1239,-1,0,0" VerticalAlignment="Top" Foreground="White" Click="save_Click"/>
+        <TextBlock x:Name= "intb" HorizontalAlignment="Left" Margin="483,6,0,0" Text="Integrated Browser" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="0.349,1.2" FontWeight="Bold" FontFamily="Microsoft YaHei Light"/>
+        <Button x:Name="update" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1406,0,0,0" Height="6" RenderTransformOrigin="0.5,0.5" Width="3" Background="Transparent">
+            <Button.RenderTransform>
+                <CompositeTransform ScaleY="-1"/>
+            </Button.RenderTransform>
+        </Button>
+        <StackPanel HorizontalAlignment="Left" Height="100" Margin="268,526,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="add_group" Content="Group" HorizontalAlignment="Left" Margin="871,0,0,0" VerticalAlignment="Top" Foreground="White" Width="65" Click="add_group_Click"/>
+
+    </Grid>
+</Page>
