@@ -6,20 +6,23 @@ A collection of Vlive streamers which I worked on for personal use in the past. 
 An AutoHotKey script which will open Chrome tabs for the videos chosen.
 #### Usage
 Open up chrome yourself, login, and be sure to set the video resolution to 144P. Then format a "input.txt" file exactly as how it is in some of my examples. Then simply run the script.
+
 **NOTE: You may have to edit the script to point to the correct location of chrome. 
-**      You will also be unable to use the device while it is running, as it requires chrome to be focused.
+You will also be unable to use the device while it is running, as it requires chrome to be focused.**
 
 # Streamer 2
 A Winforms program which will do exactly the same thing as Streamer 1. I wouldn't recommend using this, Streamer 3 works the same.
 #### Usage
 Run "Vlive Streamer.exe" and paste video links into the corresponding textboxes roughly to how long the video duration is. Then simply click start. You can also load a .txt file of the same format from Streamer 1. Make sure you follow the steps for Streamer 1, where you log in and set the resolution (and keep that tab open).
-**NOTE: Quick Mode must be checked on to ensure it does not crash. This is due to changes in the vlive site.
+
+**NOTE: Quick Mode must be checked on to ensure it does not crash. This is due to changes in the vlive site.**
 
 # Streamer 3
 A WPF program which is pretty much streamer 2 but a bit prettier I guess. Has the same flaws with Streamer 1 & 2 where the device is unusable when it is running.
 #### Usage
 Run "WpfApplication1.exe", then add videos in the 2nd tab similar to streamer 2. Then simply click start. Make sure you follow the steps for Streamer 1, where you log in and set the resolution (and keep that tab open).
-**NOTE: Quick Mode must be on (but it should be on by default) for similar reasons to streamer 2.
+
+**NOTE: Quick Mode must be on (but it should be on by default) for similar reasons to streamer 2.**
 
 # Streamer 4
 A UWP program which given the html code of a group's channel, turns it into a list of videos and plays them. This is the best option as it can quickly retrieve every video you need, as well as using an internal browser, and as such, allowing you to continue using the device.
